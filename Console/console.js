@@ -7,11 +7,20 @@ let commands_list = {
     "clear" : clear,
     "echo" : print,
     "rm" : remove_location,
-    "curl" : curl
+    "curl" : curl,
+    "cat" : catenate
 }
 
 function change_directory(args){
+    var path = args[0]
+    var locations = split_path(path)
 
+    if(locations[i].endsWith(":")){
+        current_path = locations
+    }
+    else{
+
+    }
 }
 
 function make_directory(args){
@@ -31,9 +40,13 @@ function clear(args){
 }
 
 function remove_location(args){
-
+    delete_file(split_path[args[0]])
 }
 
 function curl(args){
+
+}
+
+function catenate(args){
 
 }
