@@ -1,0 +1,24 @@
+@font-face {
+    font-family: bar-morse;
+    src: url("Fonts/morse_tech/Morse\ Tech.otf");
+}
+
+@font-face {
+    font-family: bar-text;
+    src: url("Fonts/cmc7/Cmc7.ttf");
+}
+
+@font-face {
+    font-family: baudot;
+    src: url("Fonts/baudot_5/baudot5.ttf");
+}
+
+@font-face {
+    font-family: qr;
+    src: url("Fonts/QR-Regular.otf");
+}
+
+@font-face {
+    font-family: code-pink;
+    src: url("Fonts/code_462w_pink/Code462WPink-Regular.ttf");
+}
